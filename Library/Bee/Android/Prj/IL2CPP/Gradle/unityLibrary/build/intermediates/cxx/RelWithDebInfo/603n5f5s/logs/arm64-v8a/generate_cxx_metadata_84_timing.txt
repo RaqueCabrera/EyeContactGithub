@@ -1,0 +1,77 @@
+# C/C++ build system timings
+generate_cxx_metadata
+  [gap of 21ms]
+  create-invalidation-state 52ms
+  [gap of 19ms]
+  write-metadata-json-to-file 10ms
+generate_cxx_metadata completed in 102ms
+
+# C/C++ build system timings
+generate_cxx_metadata
+  [gap of 29ms]
+  create-invalidation-state 49ms
+  [gap of 24ms]
+  write-metadata-json-to-file 13ms
+generate_cxx_metadata completed in 117ms
+
+# C/C++ build system timings
+generate_cxx_metadata
+  [gap of 24ms]
+  create-invalidation-state 54ms
+  [gap of 27ms]
+  write-metadata-json-to-file 15ms
+generate_cxx_metadata completed in 121ms
+
+# C/C++ build system timings
+generate_cxx_metadata
+  [gap of 42ms]
+  create-invalidation-state 208ms
+  generate-prefab-packages
+    [gap of 16ms]
+    exec-prefab 1261ms
+    [gap of 23ms]
+  generate-prefab-packages completed in 1300ms
+  execute-generate-process
+    exec-configure 1457ms
+    [gap of 166ms]
+  execute-generate-process completed in 1624ms
+  [gap of 46ms]
+  write-metadata-json-to-file 17ms
+generate_cxx_metadata completed in 3251ms
+
+# C/C++ build system timings
+generate_cxx_metadata
+  [gap of 38ms]
+  create-invalidation-state 232ms
+  generate-prefab-packages
+    [gap of 20ms]
+    exec-prefab 2048ms
+    [gap of 32ms]
+  generate-prefab-packages completed in 2100ms
+  execute-generate-process
+    exec-configure 2415ms
+    [gap of 128ms]
+  execute-generate-process completed in 2545ms
+  [gap of 45ms]
+  write-metadata-json-to-file 10ms
+generate_cxx_metadata completed in 4985ms
+
+# C/C++ build system timings
+generate_cxx_metadata
+  [gap of 32ms]
+  create-invalidation-state 226ms
+  generate-prefab-packages
+    [gap of 31ms]
+    exec-prefab 2752ms
+    [gap of 45ms]
+  generate-prefab-packages completed in 2828ms
+  execute-generate-process
+    [gap of 13ms]
+    exec-configure 1625ms
+    [gap of 133ms]
+  execute-generate-process completed in 1771ms
+  remove-unexpected-so-files 12ms
+  [gap of 32ms]
+  write-metadata-json-to-file 12ms
+generate_cxx_metadata completed in 4952ms
+

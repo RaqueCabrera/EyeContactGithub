@@ -1,0 +1,20 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="PokeTest">
+			<method name="ChangeToMaterial1"/>
+			<method name="ChangeToMaterial2"/>
+		</type>
+	</assembly>
+	<assembly fullname="Oculus.Interaction" ignoreIfMissing="1">
+		<type fullname="Oculus.Interaction.Locomotion.LocomotionGate">
+			<method name="Cancel"/>
+			<method name="Cancel"/>
+		</type>
+		<type fullname="Oculus.Interaction.Locomotion.TeleportArcGravity">
+			<method name="UpdateArcParameters"/>
+			<method name="UpdateArcParameters"/>
+			<method name="UpdateArcParameters"/>
+			<method name="UpdateArcParameters"/>
+		</type>
+	</assembly>
+</linker>

@@ -1,0 +1,252 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:installLocation="auto" >
+6
+7    <uses-sdk android:minSdkVersion="32" />
+8
+9    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+9-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-79
+9-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:20-76
+10    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+10-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-78
+10-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:20-75
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-65
+11-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:20-62
+12
+13    <uses-feature
+13-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-111
+14        android:name="android.hardware.vr.headtracking"
+14-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-64
+15        android:required="true"
+15-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:65-88
+16        android:version="1" />
+16-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:89-108
+17    <uses-feature android:glEsVersion="0x00030000" />
+17-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-52
+17-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-49
+18    <uses-feature
+18-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-91
+19        android:name="android.hardware.vulkan.version"
+19-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-63
+20        android:required="false" />
+20-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:64-88
+21    <uses-feature
+21-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-88
+22        android:name="android.hardware.touchscreen"
+22-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:17-60
+23        android:required="false" />
+23-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:61-85
+24    <uses-feature
+24-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:3-99
+25        android:name="android.hardware.touchscreen.multitouch"
+25-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:17-71
+26        android:required="false" />
+26-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:72-96
+27    <uses-feature
+27-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:3-108
+28        android:name="android.hardware.touchscreen.multitouch.distinct"
+28-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:17-80
+29        android:required="false" />
+29-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:81-105
+30    <uses-feature
+30-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:43:3-88
+31        android:name="oculus.software.handtracking"
+31-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:43:17-60
+32        android:required="false" />
+32-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:43:61-85
+33
+34    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+34-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:44:3-73
+34-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:44:20-70
+35
+36    <application
+36-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:3-42:17
+37        android:allowBackup="false"
+37-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-43
+38        android:extractNativeLibs="true"
+38-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:44-76
+39        android:icon="@mipmap/app_icon"
+39-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:77-108
+40        android:label="@string/app_name"
+40-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:109-141
+41        android:networkSecurityConfig="@xml/network_sec_config"
+41-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:186-241
+42        android:requestLegacyExternalStorage="true" >
+42-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:142-185
+43        <meta-data
+43-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-89
+44            android:name="unityplayer.SkipPermissionsDialog"
+44-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-64
+45            android:value="false" />
+45-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:65-86
+46        <meta-data
+46-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-97
+47            android:name="com.samsung.android.vr.application.mode"
+47-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-70
+48            android:value="vr_only" />
+48-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:71-94
+49        <meta-data
+49-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-86
+50            android:name="com.oculus.ossplash.background"
+50-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-61
+51            android:value="black" />
+51-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:62-83
+52        <meta-data
+52-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-120
+53            android:name="com.oculus.telemetry.project_guid"
+53-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-64
+54            android:value="9a1b8b79-4965-4d10-b4da-7816785c960a" />
+54-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:65-117
+55        <meta-data
+55-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-108
+56            android:name="com.oculus.supportedDevices"
+56-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-58
+57            android:value="quest2|questpro|quest3|quest3s" />
+57-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:59-105
+58        <meta-data
+58-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-69
+59            android:name="unity.splash-mode"
+59-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-48
+60            android:value="0" />
+60-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:49-66
+61        <meta-data
+61-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-74
+62            android:name="unity.splash-enable"
+62-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-50
+63            android:value="True" />
+63-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:51-71
+64        <meta-data
+64-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-78
+65            android:name="unity.launch-fullscreen"
+65-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:16-54
+66            android:value="True" />
+66-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:55-75
+67        <meta-data
+67-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:5-84
+68            android:name="unity.render-outside-safearea"
+68-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:16-60
+69            android:value="True" />
+69-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:61-81
+70        <meta-data
+70-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:5-81
+71            android:name="notch.config"
+71-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:16-43
+72            android:value="portrait|landscape" />
+72-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:44-78
+73        <meta-data
+73-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:5-84
+74            android:name="unity.auto-report-fully-drawn"
+74-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:16-60
+75            android:value="true" />
+75-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:61-81
+76        <meta-data
+76-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:5-80
+77            android:name="unity.auto-set-game-state"
+77-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:16-56
+78            android:value="true" />
+78-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:57-77
+79        <meta-data
+79-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:5-78
+80            android:name="unity.strip-engine-code"
+80-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:16-54
+81            android:value="true" />
+81-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:55-75
+82
+83        <activity
+83-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:5-36:16
+84            android:name="com.unity3d.player.UnityPlayerGameActivity"
+84-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:274-331
+85            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|density"
+85-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:15-124
+86            android:enabled="true"
+86-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:125-147
+87            android:excludeFromRecents="true"
+87-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:148-181
+88            android:exported="true"
+88-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:182-205
+89            android:hardwareAccelerated="false"
+89-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:206-241
+90            android:launchMode="singleTask"
+90-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:242-273
+91            android:resizeableActivity="false"
+91-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:332-366
+92            android:screenOrientation="landscape"
+92-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:367-404
+93            android:theme="@style/BaseUnityGameActivityTheme" >
+93-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:405-454
+94            <intent-filter>
+94-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:7-31:23
+95                <category android:name="android.intent.category.LAUNCHER" />
+95-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:9-69
+95-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:19-66
+96                <category android:name="com.oculus.intent.category.VR" />
+96-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:9-66
+96-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:19-63
+97
+98                <action android:name="android.intent.action.MAIN" />
+98-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:9-61
+98-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-58
+99            </intent-filter>
+100
+101            <meta-data
+101-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:7-81
+102                android:name="com.oculus.vr.focusaware"
+102-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:18-57
+103                android:value="true" />
+103-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:58-78
+104            <meta-data
+104-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:7-130
+105                android:name="WindowManagerPreference:FreeformWindowSize"
+105-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:18-75
+106                android:value="@string/FreeformWindowSize_maximize" />
+106-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:76-127
+107            <meta-data
+107-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:7-145
+108                android:name="WindowManagerPreference:FreeformWindowOrientation"
+108-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:18-82
+109                android:value="@string/FreeformWindowOrientation_landscape" />
+109-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:83-142
+110            <meta-data
+110-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:7-70
+111                android:name="notch_support"
+111-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:18-46
+112                android:value="true" />
+112-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:47-67
+113        </activity>
+114
+115        <meta-data
+115-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:5-91
+116            android:name="com.unity.xr.oculus.LowOverheadMode"
+116-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:16-66
+117            android:value="false" />
+117-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:67-88
+118        <meta-data
+118-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:38:5-88
+119            android:name="com.unity.xr.oculus.LateLatching"
+119-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:38:16-63
+120            android:value="false" />
+120-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:38:64-85
+121        <meta-data
+121-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:39:5-93
+122            android:name="com.unity.xr.oculus.LateLatchingDebug"
+122-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:39:16-68
+123            android:value="false" />
+123-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:39:69-90
+124        <meta-data
+124-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:40:5-87
+125            android:name="com.oculus.handtracking.frequency"
+125-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:40:16-64
+126            android:value="LOW" />
+126-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:40:65-84
+127        <meta-data
+127-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:41:5-86
+128            android:name="com.oculus.handtracking.version"
+128-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:41:16-62
+129            android:value="V2.0" />
+129-->C:\Users\Raque\EyeContactPC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:41:63-83
+130    </application>
+131
+132</manifest>
