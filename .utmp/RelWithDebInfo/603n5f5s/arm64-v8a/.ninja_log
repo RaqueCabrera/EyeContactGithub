@@ -1,0 +1,23 @@
+# ninja log v5
+18	2356	7644612985706154	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	f3fecf53b935f2c1
+113	630	7644612968221578	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	cac73fc9fc9f68d2
+630	1211	7644612974396633	C:/Users/Raque/EyeContactPC/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/603n5f5s/obj/arm64-v8a/libswappywrapper.so	f3f647657da930e
+60	1779	7644612979930398	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	fd365b4a486c5fc7
+46	1864	7644612980768526	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	ebe91f154873c7e5
+34	1781	7644612979930398	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	17dc34b78a34dcb1
+84	1961	7644612981749288	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	cc7edc4d735e6f0c
+98	1820	7644612980246054	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	b8e61fba996792f7
+6	2048	7644612982670077	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	353253b956188fc5
+72	2234	7644612984519322	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	321cdf20ec544631
+2356	2501	7644612987285109	C:/Users/Raque/EyeContactPC/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/603n5f5s/obj/arm64-v8a/libgame.so	3081ecf412b675fa
+223	1122	7644618570503959	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	cac73fc9fc9f68d2
+1124	3408	7644618584570551	C:/Users/Raque/EyeContactPC/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/603n5f5s/obj/arm64-v8a/libswappywrapper.so	f3f647657da930e
+97	4400	7644618603450853	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	fd365b4a486c5fc7
+4	4546	7644618605268777	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	17dc34b78a34dcb1
+127	4615	7644618605887520	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	ebe91f154873c7e5
+187	4862	7644618608260441	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	cc7edc4d735e6f0c
+170	4865	7644618608192725	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	b8e61fba996792f7
+20	4942	7644618609084163	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	353253b956188fc5
+50	5535	7644618615187457	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	321cdf20ec544631
+34	5790	7644618617779704	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	f3fecf53b935f2c1
+5790	6058	7644618620746351	C:/Users/Raque/EyeContactPC/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/603n5f5s/obj/arm64-v8a/libgame.so	3081ecf412b675fa
